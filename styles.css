@@ -1,0 +1,36 @@
+h2{
+    font-family: 'Playpen Sans', cursive;
+    color:whitesmoke
+}
+
+body{
+    background-color: rgba(95, 197, 231, 0.908);
+    border:10px solid rgba(0, 0, 255, 0.474)
+}
+
+*{
+    box-sizing:border-box
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    display:table;
+    clear: both;
+}
+
+h1,h4{
+    text-align:center;
+    color:rgb(226, 223, 223);
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
